@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu ul li a{
+    font-size: 22px;
+}
+
+nav .btn{
+    font-size: 24px;
+}
+
+.slider{
+   
+    max-width:1800px;
+    height:918px;
+    margin: 0 auto;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots {
+    position: absolute;
+    top: 0;
+    right:90px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap:30px
+}
+.slick-dots li button {
+    background:#383838;
+    border-radius: 50%;
+   border:3px solid #383838;;
+}
+.slick-dots  .slick-active button{
+    background: #FED29C;
+}
+
+.slider-nav{
+    margin-top: 50px;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.main{
+    position: relative;
+}
+
+.delivary{
+    max-width: 1216px !important;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 92%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.one1 .top{
+    position: relative;
+}
+
+.one1 .bottom{
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 36px 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+}
+
+
+.customer .top:hover .content{
+    opacity: 1;
+    visibility: visible;
+}
+
+.customer .bottom:hover .content{
+    opacity: 1;
+    visibility: visible;
+}
+
+.button1 a{
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 0;
+    outline: 0;
+    border: 2px solid transparent;
+    transition: all .4s;
+    border-radius: 5px;
+}
+
+.button1 a:hover{
+    padding: 5px 20px;
+    border: 0;
+    outline: 0;
+    border: 2px solid #383838;
+}
+
+
+.card1 .two{
+    border: 1px solid #383838;
+    font-size: 28px;
+    font-weight: 700;
+}
